@@ -87,7 +87,7 @@ async def start_(c: Client, message: Message):
         f"""ههݪاެ حبيب {message.from_user.mention()} ❤️‍🔥\n
 اެناެ بَۅت بَمميࢪ࣪اެتَ متَعدَدةَ ݪتشغِيݪ اެݪاغاެنِي فَي اެݪمَجمَۅعاتَ 🥇.
 
--› MᥲᎥꪀƚᥲᎥꪀᥱძ ხy -› [S᥆ᥙrᥴᥱ Frᥱᥱძ᥆ꪔ](http://t.me/xl444)
+-› MᥲᎥꪀƚᥲᎥꪀᥱძ ხy -› [˛َِ  ُᥴٰꫝ ٰ᥆ٰᥣٰᎥٰꪜٰꫀٰɾ . ◟َِ](http://t.me/ZZZZ7LZ)
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -184,7 +184,7 @@ async def new_chat(c: Client, m: Message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                             [
-                                InlineKeyboardButton("-› قناة السورس", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                                InlineKeyboardButton("-› لتنصيب البوت", url=f"https://t.me/{OWNER_USERNAME}"),
                                 InlineKeyboardButton("-› الاوامر", callback_data="command_list")
                             ],[
                                 InlineKeyboardButton("-› حساب المساعد", url=f"https://t.me/{me_user.username}")
