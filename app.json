@@ -1,86 +1,169 @@
 {
+
     "name": "سورس فريدوم بوت",
+
     "description": "تشغيل الاغاني في المجموعات",
+
     "logo": "https://te.legra.ph/file/46fa55b49b85c084159ce.jpg",
+
     "keywords": [
+
         "py-tgcalls",
+
         "telegram bot",
+
         "video stream",
+
         "live stream",
+
         "music stream",
+
         "mongodb",
+
         "pyrogram"
+
     ],
+
     "website": "https://t.me/xl444",
-    "repository": "https://github.com/oliethon-zr/bot2",
-    "success_url": "https://t.me/zzzz7lz",
+
+    "repository": "https://github.com/muntazer995/RR8R9",
+
+    "success_url": "https://t.me/rr8r9",
+
     "env": {
+
      "API_ID": {
+
             "description": "لاتغيرها ابدا",
-            "required": true,
-            "value": "11098135"
-        },
-     "API_HASH": {
-            "description": "لاتغيرها ابدا",
-            "required": true,
-            "value": "92b6e6a1c3152a2def3b0b219a11acf4"
-        },
-        "BOT_TOKEN": {
-            "description": "اكتب توكن",
-            "required": true,
-        },
-        "BOT_USERNAME": {
-            "description": "اكتب معرف البوت بدون @",
+
             "required": true,
 
+            "value": "19399491"
+
         },
-        "SESSION_NAME": {
-            "description": "اكتب كود ترمكس",
+
+     "API_HASH": {
+
+            "description": "لاتغيرها ابدا",
+
+            "required": true,
+
+            "value": "eaa4f266934dfef23edb6d1f25e0b10f"
+
+        },
+
+        "BOT_TOKEN": {
+
+            "description": "اكتب توكن",
+
             "required": true
+
         },
+
+        "BOT_USERNAME": {
+
+            "description": "اكتب معرف البوت بدون @",
+
+            "required": true
+
+        },
+
+        "SESSION_NAME": {
+
+            "description": "اكتب كود ترمكس",
+
+            "required": true
+
+        },
+
         "MONGODB_URL": {
+
             "description": "اكتب قاعدة البيانات",
+
             "required": true,
+
             "value": "mongodb+srv://vro:vro@cluster0.eyy25.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+
         },
+
         "SUDO_USERS": {
+
             "description": "اكتب ايديات المطورين",
+
             "required": true,
-            "value": "5036835528"
+
+            "value": "1854384004"
+
         },
+
         "OWNER_ID": {
+
             "description": "اكتب ايدي مالك البوت",
+
             "required": true,
-            "value": "5036835528"
+
+            "value": "1854384004"
+
         },
+
         "OWNER_USERNAME": {
+
             "description": "اكتب معرف المطور بدون @",
+
             "required": true,
-            "value": "IIIT2"
+
+            "value": "rr8r9"
+
         },
+
         "ALIVE_NAME": {
+
             "description": "اكتب اسم المطور",
+
             "required": true,
-            "value": "᥆ٰᥣٰᎥٰꪜٰꫀٰɾ"
+
+            "value": "muntazer"
+
         }
+
     },
+
     "addons": [],
+
     "buildpacks": [
+
         {
+
             "url": "heroku/python"
+
         },
+
         {
+
             "url": "heroku/nodejs"
+
         },
+
         {
+
             "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+
         }
+
     ],
+
     "formation": {
+
         "worker": {
+
             "quantity": 1,
+
             "size": "free"
+
         }
+
     },
+
     "stack": "container"
+
 }
