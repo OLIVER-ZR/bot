@@ -27,12 +27,12 @@
         },
         "BOT_TOKEN": {
             "description": "اكتب توكن",
-            "required": true
+            "required": true,
         },
         "BOT_USERNAME": {
             "description": "اكتب معرف البوت بدون @",
-            "required": true
-            "value": "G_5_bot"
+            "required": true,
+
         },
         "SESSION_NAME": {
             "description": "اكتب كود ترمكس",
