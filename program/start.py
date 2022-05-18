@@ -97,7 +97,7 @@ async def start_(c: Client, message: Message):
                     InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="user_guide")
                 ],[
                     InlineKeyboardButton("اެݪاۅاެمࢪ", callback_data="command_list"),
-                    InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/{OWNER_USERNAME}")                    
+                    InlineKeyboardButton("🦎 لتنصيب البوت", url=f"https://t.me/{OWNER_USERNAME}")                    
                 ],
             ]
         ),
