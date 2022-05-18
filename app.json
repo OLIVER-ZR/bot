@@ -12,18 +12,18 @@
         "pyrogram"
     ],
     "website": "https://t.me/xl444",
-    "repository": "https://github.com/muntazer995/RR8R9",
-    "success_url": "https://t.me/rr8r9",
+    "repository": "https://github.com/oliethon-zr/bot2",
+    "success_url": "https://t.me/zzzz7lz",
     "env": {
      "API_ID": {
             "description": "لاتغيرها ابدا",
             "required": true,
-            "value": "19399491"
+            "value": "11098135"
         },
      "API_HASH": {
             "description": "لاتغيرها ابدا",
             "required": true,
-            "value": "eaa4f266934dfef23edb6d1f25e0b10f"
+            "value": "92b6e6a1c3152a2def3b0b219a11acf4"
         },
         "BOT_TOKEN": {
             "description": "اكتب توكن",
@@ -32,6 +32,7 @@
         "BOT_USERNAME": {
             "description": "اكتب معرف البوت بدون @",
             "required": true
+            "value": "G_5_bot"
         },
         "SESSION_NAME": {
             "description": "اكتب كود ترمكس",
@@ -45,22 +46,22 @@
         "SUDO_USERS": {
             "description": "اكتب ايديات المطورين",
             "required": true,
-            "value": "1854384004"
+            "value": "5036835528"
         },
         "OWNER_ID": {
             "description": "اكتب ايدي مالك البوت",
             "required": true,
-            "value": "1854384004"
+            "value": "5036835528"
         },
         "OWNER_USERNAME": {
             "description": "اكتب معرف المطور بدون @",
             "required": true,
-            "value": "rr8r9"
+            "value": "IIIT2"
         },
         "ALIVE_NAME": {
             "description": "اكتب اسم المطور",
             "required": true,
-            "value": "muntazer"
+            "value": "᥆ٰᥣٰᎥٰꪜٰꫀٰɾ"
         }
     },
     "addons": [],
