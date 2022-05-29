@@ -1,6 +1,6 @@
 {
 
-    "name": "سورس فريدوم بوت",
+    "name": "سورس آوليفر بوت",
 
     "description": "تشغيل الاغاني في المجموعات",
 
@@ -24,11 +24,11 @@
 
     ],
 
-    "website": "https://t.me/xl444",
+    "website": "https://t.me/IIIT2",
 
-    "repository": "https://github.com/muntazer995/RR8R9",
+    "repository": "https://github.com/oliver-zr/bot",
 
-    "success_url": "https://t.me/rr8r9",
+    "success_url": "https://t.me/Zzzz7lz",
 
     "env": {
 
@@ -38,7 +38,7 @@
 
             "required": true,
 
-            "value": "19399491"
+            "value": "11098135"
 
         },
 
@@ -48,7 +48,7 @@
 
             "required": true,
 
-            "value": "eaa4f266934dfef23edb6d1f25e0b10f"
+            "value": "92b6e6a1c3152a2def3b0b219a11acf4"
 
         },
 
@@ -92,7 +92,7 @@
 
             "required": true,
 
-            "value": "1854384004"
+            "value": "5036835528"
 
         },
 
@@ -102,7 +102,7 @@
 
             "required": true,
 
-            "value": "1854384004"
+            "value": "5036835528"
 
         },
 
@@ -112,7 +112,7 @@
 
             "required": true,
 
-            "value": "rr8r9"
+            "value": "IIIT2"
 
         },
 
@@ -122,7 +122,7 @@
 
             "required": true,
 
-            "value": "muntazer"
+            "value": "OLiver"
 
         }
 
