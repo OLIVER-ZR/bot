@@ -82,7 +82,7 @@
 
             "required": true,
 
-            "value": "mongodb+srv://skro:skro@skro.2khvo.mongodb.net/?retryWrites=true&w=majority"
+            "value": "mongodb+srv://skro:skro@2khvo.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
         },
 
