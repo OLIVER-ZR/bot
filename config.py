@@ -5,16 +5,16 @@ admins = {}
 load_dotenv()
 
 # client vars
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
-BOT_TOKEN = getenv("BOT_TOKEN")
-SESSION_NAME = getenv("SESSION_NAME", "session")
+API_ID = int(getenv("API_ID", "17694201"))
+API_HASH = getenv("API_HASH", "eb8b38c80b362ae8673ac2b59bac17c6")
+BOT_TOKEN = getenv("BOT_TOKEN", "5306766511:AAHVWc-nXC1cn8x3a3sg_JjrSmHOqKfDjjE")
+SESSION_NAME = getenv("SESSION_NAME", "")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME")
-ALIVE_NAME = getenv("ALIVE_NAME")
-BOT_USERNAME = getenv("BOT_USERNAME")
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/OLIVER-ZR/bot")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "5036835528")
+ALIVE_NAME = getenv("ALIVE_NAME", "Oliver")
+BOT_USERNAME = getenv("BOT_USERNAME", "NLLNBOT")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Oliethon/bot")
 UPSTREAM_BRANCH = getenv("UPSTREM_BRANCH", "main")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "60"))
 GROUP_SUPPORT = getenv("GROUP_SUPPORT", "LLLG_5")
@@ -23,8 +23,8 @@ UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "ZZZZ7LZ")
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
-OWNER_ID = list(map(int, getenv("OWNER_ID").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "5036835528").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "IIIT2").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
