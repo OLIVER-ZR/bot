@@ -11,7 +11,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "5306766511:AAHVWc-nXC1cn8x3a3sg_JjrSmHOqKfDjjE"
 SESSION_NAME = getenv("SESSION_NAME", "BABUyLmVKvo58t-ERlmmGvHMZUczLcKSwud8UDfKyh9kLzX4jFRUpEgthR5lBf8OPvljttJ3a8jhcoXgEyz0YvcxAji8IE6kEpyOGTxbyaa2jYIYfZC5ZBpoeGNw7zUAGJglV4CRkNUKmJchKJROVHj9qkx-mA92dUc-O0cCdqIgVUWWIVb1bzJVw8_sZAnbfojboSens6aE9kou_JqyYqWBKZqw4TbPSKlkOvmiPwuN7q-07fErnke7MiXJOyopAKSxpdSfYHylUNInzh2HcF_i95lQ1K7yxAP-8s3e8lwFnQ8tJR2sLthepZbfqih2L8MDY7eqYQy1oizR7XtW9MMeAAAAASq-5kwA")
 
 # mandatory vars
-OWNER_USERNAME = getenv("OWNER_USERNAME", "5036835528")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "IIIT2")
 ALIVE_NAME = getenv("ALIVE_NAME", "Oliver")
 BOT_USERNAME = getenv("BOT_USERNAME", "NLLNBOT")
 UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/Oliethon/bot")
@@ -24,7 +24,7 @@ UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "ZZZZ7LZ")
 MONGODB_URL = getenv("MONGODB_URL")
 COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5036835528").split()))
-SUDO_USERS = list(map(int, getenv("SUDO_USERS", "IIIT2").split()))
+SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5036835528").split()))
 
 # image resources vars
 IMG_1 = getenv("IMG_1", "https://te.legra.ph/file/2a726c634dbc3b9e8f451.png")
