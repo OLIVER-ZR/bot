@@ -22,7 +22,7 @@ UPDATES_CHANNEL = getenv("UPDATES_CHANNEL", "ZZZZ7LZ")
 
 # database, decorators, handlers mandatory vars
 MONGODB_URL = getenv("MONGODB_URL", "mongodb+srv://skro:skro@2khvo.mongodb.net/?retryWrites=true&w=majority")
-COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $").split())
+COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! . $ ").split())
 OWNER_ID = list(map(int, getenv("OWNER_ID", "5036835528").split()))
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "5036835528").split()))
 
