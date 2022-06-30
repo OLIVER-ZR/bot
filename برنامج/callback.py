@@ -42,7 +42,7 @@ async def start_set(_, query: CallbackQuery):
         f"""ههݪاެ حبيب [{query.message.chat.first_name}](tg://user?id={query.message.chat.id}) ❤️‍🔥\n
 اެناެ بَۅت بَمميࢪ࣪اެتَ متَعدَدةَ ݪتشغِيݪ اެݪاغاެنِي فَي اެݪمَجمَۅعاتَ 🥇.
 
--› MᥲᎥꪀƚᥲᎥꪀᥱძ ხy -› [S᥆ᥙrᥴᥱ Frᥱᥱძ᥆ꪔ](http://t.me/xl444)
+-› MᥲᎥꪀƚᥲᎥꪀᥱძ ხy -› [cH OLiVeR](http://t.me/ZZZZ7LZ)
 """,
         reply_markup=InlineKeyboardMarkup(
             [
@@ -52,7 +52,7 @@ async def start_set(_, query: CallbackQuery):
                     InlineKeyboardButton("طࢪيقة اެݪتشغيݪ", callback_data="user_guide")
                 ],[
                     InlineKeyboardButton(" اެݪاۅاެمࢪ", callback_data="command_list"),
-                    InlineKeyboardButton("🦎 اެݪمطَۅࢪ", url=f"https://t.me/{OWNER_USERNAME}")
+                    InlineKeyboardButton("لتنصيب بوت مماثل", url=f"https://t.me/{OWNER_USERNAME}")
                 ],
             ]
         ),
